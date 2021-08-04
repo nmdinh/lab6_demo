@@ -4,4 +4,7 @@ jdk:
   - openjdk11
 os:
   - linux
-  - osx
+matrix:
+        include:
+                - dist: trusty
+                - dist: xenial
